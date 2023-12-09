@@ -1,0 +1,29 @@
+{
+"builds": [ 
+    {
+        "src":"api/webapp3.py",
+        "use": "@vercel/python"
+    }
+],
+"routes": [
+    {
+       "src":"/(.*)",
+       "dest":"api/Proj.py"
+
+    }
+
+
+
+
+
+
+]
+    
+
+
+
+
+
+
+
+}
